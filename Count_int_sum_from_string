@@ -1,9 +1,6 @@
 The following function calculates the sum of all numbers in a string that consists of only English alphabets and numbers 0-9. Consecutive digits in the string are considered as one number.
 
-#Example:
-## Input:
-"go786sun2bob"
-
-## Output: 788
-## Explanation:
-786 + 2 = 788
+Example:
+Input: "go786sun2bob"
+Output: 788
+Explanation: Parsing the given string, there are two integers, 786 and 2. The solution method will return 786 + 2 = 788 as an integer
