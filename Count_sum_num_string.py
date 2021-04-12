@@ -12,3 +12,6 @@ def count_int_from_str(s):
 
 
 print(count_int_from_str("go256sdfgd44"))
+
+# Time complexity O(n)
+# Space complexity O(1)
