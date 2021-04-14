@@ -22,3 +22,6 @@ def most_common_word(paragraph, banned):
     for key in list(word_count.keys()):
         if word_count[key] == max(list(word_count.values())):
             return key
+        
+    # Time Complexity: O(n)
+    # Space Complexity: O(n)
