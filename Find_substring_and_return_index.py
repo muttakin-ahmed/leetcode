@@ -6,7 +6,9 @@ def Find_substring_and_return_index(self, haystack: str, needle: str) -> int:
         # We are now finding the needle in the haystack
         # Algorithm: traverse the haystack
         for i in range(len(haystack)):
-            # For each letter, check that haystack[current:current+len(needle)] == needle or not
+            # The core of the logic to solve this problem
+            # For each letter, check that current window is needle or not
+            # current window = haystack[current:current+len(needle)]
             # If yes -> found the needle and return current
             if haystack[i:i+len(needle)] == needle:
                 return i
